@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url("https://images5.alphacoders.com/333/333373.png");
+    background-size: cover;
+
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    background-color: lightgray
+    
+}
+
+nav p {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    float: left;
+    padding: 0px 20px;
+    padding-top: 16px;
+    
+}
+
+nav ul {
+    float: left ;
+
+}
+
+nav ul li{
+    float:left ;
+    list-style: none;
+    position: relative;
+    
+}
+
+nav ul li a{
+    font-family: sans-serif;
+    display: block;
+    color: #222;
+    font-size: 14px;
+    padding: 22px 14px;
+    text-decoration: none;   
+}
+
+nav ul li ul{
+display: none;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+background-color: white;
+padding: 10px;
+border-radius: 0px 0px 8px 8px;
+text-align: left;
+background-color: lightgray
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a {
+    padding: 10px 14px;
+ }
+
+ nav ul li ul li a:hover {
+    padding: 10px 14px;
+    background-color: #696969;
+    border-radius: 8px 8px 8px 8px;
+
+ }
+
+ nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+ }
+ 
+
+
+ h1 {
+     padding: 10px;
+     margin-left: 75px;
+     margin-top: 220px;
+     float: left;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #D3D3D3;
+    border-radius: 8px 8px 8px 8px;
+    }
+
+.center {
+    left:0px; 
+    margin-top: 270px;
+    position: absolute;
+    }
+    
+h2{
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 17cm;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+    border-radius: 8px 8px 8px 8px;
+    position: absolute;
+        }
+.stairs{
+    left:0px; 
+    margin-top: 18.3cm;
+    position: absolute;
+        }
+h3{
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 27.3cm;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+    border-radius: 8px 8px 8px 8px;
+    position: absolute;
+            }
+.jungle{
+    left:0px; 
+    margin-top: 28.6cm;
+    position: absolute;
+        }
+
+h4{
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 37.3cm;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+    border-radius: 8px 8px 8px 8px;
+    position: absolute;
+            }
+.topmid {
+    left:0px; 
+    margin-top: 38.6cm;
+    position: absolute;
+           }
+
+h5{
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 47.3cm;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+    border-radius: 8px 8px 8px 8px;
+    position: absolute;
+            }
+
+.inflong {
+    left:0px; 
+    margin-top: 48.6cm;
+    position: absolute;
+        }
+            
+h6{
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 57.3cm;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+    border-radius: 8px 8px 8px 8px;
+    position: absolute;
+        }
+
+.infshort {
+    left:0px; 
+    margin-top: 58.6cm;
+    position: absolute;
+        }
+
+
+.infruins{
+    left:0px; 
+    margin-top: 68.6cm;
+    position: absolute;
+     }
+
+p {
+    background-color: #D3D3D3;
+}
+
+#h7{
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 67.3cm;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+    border-radius: 8px 8px 8px 8px;
+    position: absolute;
+    }
+
+ #h8 {
+     padding: 10px;
+     margin-left: 75px;
+     margin-top: 77.3cm;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+    border-radius: 8px 8px 8px 8px;
+    position: absolute;
+    }
+
+.ovrheaven {
+    left:0px; 
+    margin-top: 78.6cm;
+    position: absolute;
+    }
+
+#h9 {
+    padding: 10px;
+    margin-left: 75px;
+    margin-top: 87.3cm;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+    border-radius: 8px 8px 8px 8px;
+    position: absolute;
+    }
+
+.overtruck {
+    left:0px; 
+    margin-top: 88.6cm;
+    position: absolute;
+    }
+
+    #h10 {
+        padding: 10px;
+        margin-left: 75px;
+        margin-top: 97.3cm;
+        float: left;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #D3D3D3;
+        border-radius: 8px 8px 8px 8px;
+        position: absolute;
+        }
+    
+        .overstairs {
+            left:0px; 
+            margin-top: 98.6cm;
+            position: absolute;
+            }
+
+            #h11 {
+                padding: 10px;
+                margin-left: 75px;
+                margin-top: 107.3cm;
+                float: left;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #D3D3D3;
+                border-radius: 8px 8px 8px 8px;
+                position: absolute;
+                }
+
+                .overbank {
+                    left:0px; 
+                    margin-top: 108.6cm;
+                    position: absolute;
+                    }
+
+                    #h12 {
+                        padding: 10px;
+                        margin-left: 75px;
+                        margin-top: 117.3cm;
+                        float: left;
+                        font-size: 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        background-color: #D3D3D3;
+                        border-radius: 8px 8px 8px 8px;
+                        position: absolute;
+                        }         
+
+                        .cachehs {
+                            left:0px; 
+                            margin-top: 118.6cm;
+                            position: absolute;
+                            }
+
+                            #h13 {
+                                padding: 10px;
+                                margin-left: 75px;
+                                margin-top: 127.3cm;
+                                float: left;
+                                font-size: 20px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                background-color: #D3D3D3;
+                                border-radius: 8px 8px 8px 8px;
+                                position: absolute;
+                                }
+                                .cachect {
+                                    left:0px; 
+                                    margin-top: 128.6cm;
+                                    position: absolute;
+                                    }
+
+                                    
+                            #h14 {
+                                padding: 10px;
+                                margin-left: 75px;
+                                margin-top: 137.3cm;
+                                float: left;
+                                font-size: 20px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                background-color: #D3D3D3;
+                                border-radius: 8px 8px 8px 8px;
+                                position: absolute;
+                                }
+
+                                .cacheconn {
+                                    left:0px; 
+                                    margin-top: 138.6cm;
+                                    position: absolute;
+                                    }
+
+
+                                    #h15 {
+                                        padding: 10px;
+                                        margin-left: 75px;
+                                        margin-top: 147.3cm;
+                                        float: left;
+                                        font-size: 20px;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                        background-color: #D3D3D3;
+                                        border-radius: 8px 8px 8px 8px;
+                                        position: absolute;
+                                        }
+
+                                        .cachecross {
+                                            left:0px; 
+                                            margin-top: 148.6cm;
+                                            position: absolute;
+                                            }
+        
